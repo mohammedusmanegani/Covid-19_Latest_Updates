@@ -167,37 +167,39 @@
 
   <hr>
 
-  <div class="card-body table-responsive">
+  <div class="card-body">
     <h2 class="card-title mb-5"><i class="far fa-flag"></i> Country Wise
       statistics</h2>
-    <div class="input-group input-group-lg mb-5">
+    <div class="input-group input-group-lg mb-3">
       <input type="text" id="look-for-country" class="form-control" aria-label="Sizing example input"
         aria-describedby="inputGroup-sizing-lg" placeholder="Search For Country...">
     </div>
-    <table class="table table-bordered border-primary">
-      <thead>
-        <tr>
-          <th scope="col">Location</th>
-          <th scope="col" class="text-danger">New Confirmed</th>
-          <th scope="col" class="text-danger">Total Confirmed</th>
-          <th scope="col" class="text-dark">New Deaths</th>
-          <th scope="col" class="text-dark">Total Deaths</th>
-          <th scope="col" class="text-success">New Recovered</th>
-          <th scope="col" class="text-success">Total Recovered</th>
-        </tr>
-      </thead>
-      <tbody id="dump_data" class="search-filter">
-        <tr>
-          <th scope="row"></th>
-          <td class="text-danger"></td>
-          <td class="text-danger"></td>
-          <td class="text-dark"></td>
-          <td class="text-dark"></td>
-          <td class="text-success"></td>
-          <td class="text-success"></td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="table-responsive">
+      <table class="table table-bordered border-primary">
+        <thead>
+          <tr>
+            <th scope="col">Location</th>
+            <th scope="col" class="text-danger">New Confirmed</th>
+            <th scope="col" class="text-danger">Total Confirmed</th>
+            <th scope="col" class="text-dark">New Deaths</th>
+            <th scope="col" class="text-dark">Total Deaths</th>
+            <th scope="col" class="text-success">New Recovered</th>
+            <th scope="col" class="text-success">Total Recovered</th>
+          </tr>
+        </thead>
+        <tbody id="dump_data" class="search-filter">
+          <tr>
+            <th scope="row"></th>
+            <td class="text-danger"></td>
+            <td class="text-danger"></td>
+            <td class="text-dark"></td>
+            <td class="text-dark"></td>
+            <td class="text-success"></td>
+            <td class="text-success"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 
   <div class="card mx-auto mr-3 ml-3 mb-5">
