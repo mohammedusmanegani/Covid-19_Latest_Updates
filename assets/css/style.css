@@ -1,0 +1,22 @@
+#rotate {
+    -webkit-animation: rotation 20s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
+footer.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+.fab{
+    font-size: 30px;
+    color: #000000;
+}
